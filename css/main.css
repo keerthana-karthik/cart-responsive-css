@@ -1,0 +1,62 @@
+
+/* Producst Section :: START */
+.products {
+    width: 100%;
+}
+.product {
+    width: 23%;
+    display: inline-block;
+    border: 1px solid #000;
+    text-align: center;
+    box-shadow: 3px 5px grey;
+    margin: 0.6rem;
+}
+.product-button-wrapper {
+    text-align: center;
+}
+.product-button {
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    background: blanchedalmond;
+    border: 1px solid brown;
+    box-shadow: 3px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.product-button:hover {
+    background: rgb(242, 195, 125);
+}
+.product-img {
+    text-align: center;
+}
+.product-price-info {
+    text-align: left;
+    display: inline-block;
+}
+.price-suffix {
+    color: gray;
+    font-size: 14px;
+}
+.product-info {
+    display: block;
+    text-align: left;
+    margin: 1rem;
+}
+@media (max-width: 850px) {
+    .product {
+        width: 30%;
+    }
+}
+@media (max-width: 650px) {
+    .product {
+        width: 45%;
+    }
+}
+@media (max-width: 450px) {
+    .product {
+        width: 93%;
+    }
+}
+/* Producst Section :: END */
+
